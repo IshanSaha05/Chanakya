@@ -1,3 +1,0 @@
-site for all assembly data = "http://www.chanakyya.com/Election-Results?electionType=Assembly"
-site for all parliament data = "http://www.chanakyya.com/Election-Results?electionType=Parliament"
-site for all district data = "http://www.chanakyya.com/Election-Results?electionType=District"

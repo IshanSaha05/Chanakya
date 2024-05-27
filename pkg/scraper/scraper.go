@@ -57,7 +57,7 @@ func GetAllAndSave(mongoDBObject mongodb.MongoDB) (error, error, error, error) {
 
 	fmt.Printf("\nMessage(Assembly): Starting Scraping.")
 	err1 := GetAndSaveAllAssemblyData(&mongoDBObject, stateNames)
-	fmt.Printf("\nMessage(Assembly): Starting Scraping.")
+	fmt.Printf("\nMessage(Assembly): Finished Scraping.")
 
 	fmt.Printf("\nMessage(Parliament): Starting Scraping.")
 	err2 := GetAndSaveAllParliamentData(&mongoDBObject, stateNames)
